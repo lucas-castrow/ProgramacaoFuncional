@@ -1,5 +1,10 @@
 ;Lucas Gabriel Mendes de Castro
 
+;REFERENCIAS
+;https://clojuredocs.org/clojure.core/nth
+;https://clojuredocs.org/clojure.core/dec
+;https://groups.google.com/g/clojure/c/fut-R-YCW-U?pli=1
+
 ; 1. Utilizando  a  linguagem  Clojure,  crie  uma  função  chamada  ultimo  que  receba  uma  lista  e devolva o último elemento desta lista sem usar as funções já prontas e disponíveis para esta mesma finalidade na linguagem Clojure.  
 (defn ultimo [lista] (
   nth lista (dec (count lista))                
